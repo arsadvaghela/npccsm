@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+    height: 80px;
+}
+
+.header-menu {
+    margin-left: auto;
+}
+
+.btn {
+    border: 1px solid #a52f2a;
+    background-color: #a52f2a;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}
